@@ -1,0 +1,11 @@
+{
+  "listen": ":2096",
+  "users": {
+    "f1cdc12f-6070-488c-9fce-3b85b52ec5f9": "AshgabatKurmanj1998"
+  },
+  "certificate": "/root/jui/ca.cer",
+  "private_key": "/root/jui/ca.key",
+  "congestion_control": "bbr",
+  "disable_outbound_udp443": true,
+  "log_level": "warn"
+}
