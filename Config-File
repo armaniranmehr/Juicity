@@ -6,6 +6,6 @@
   "certificate": "/root/juicity/ca.crt",
   "private_key": "/root/juicity/ca.key",
   "congestion_control": "bbr",
-  "disable_outbound_udp443": true,
+  "disable_outbound_udp443": false,
   "log_level": "info"
 }
