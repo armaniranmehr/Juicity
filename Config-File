@@ -1,7 +1,7 @@
 {
   "listen": ":9443",
   "users": {
-    "f1cdc12f-6070-488c-9fce-3b85b52ec5f9": "AshgabatKurmanj1998"
+    "b168417b-f01f-48da-897c-302c419c2b7b": "AshgabatKurmanj1998"
   },
   "certificate": "/root/juicity/ca.crt",
   "private_key": "/root/juicity/ca.key",
