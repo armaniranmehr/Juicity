@@ -3,9 +3,10 @@ After=network.target nss-lookup.target
 [Service]
 Type=simple
 User=root
+WorkingDirectory=/root
 CapabilityBoundingSet=CAP_NET_ADMIN CAP_NET_BIND_SERVICE CAP_NET_RAW
 AmbientCapabilities=CAP_NET_ADMIN CAP_NET_BIND_SERVICE CAP_NET_RAW
-ExecStart=/root/juicity/juicity run -c /root/juicity/config.json --disable-timestamp
+ExecStart=/root/juicity-folder/juicity run -c /root/juicity-folder/config.json --disable-timestamp
 Restart=on-failure
 LimitNPROC=512
 LimitNOFILE=infinity
