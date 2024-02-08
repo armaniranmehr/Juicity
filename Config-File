@@ -1,11 +1,12 @@
 {
-  "listen": ":9443",
+  "listen": ":2096",
   "users": {
-    "b168417b-f01f-48da-897c-302c419c2b7b": "AshgabatKurmanj1998"
+    "7aa29bde-f6eb-4226-8ead-920a8576d9cd":
+    "AshgabatKurmanj1998"
   },
-  "certificate": "/root/juicity/ca.crt",
-  "private_key": "/root/juicity/ca.key",
+  "certificate": "/root/juicity-folder/ca.crt",
+  "private_key": "/root/juicity-folder/ca.key",
   "congestion_control": "bbr",
-  "disable_outbound_udp443": false,
+  "disable_outbound_udp443": true,
   "log_level": "info"
 }
