@@ -1,8 +1,8 @@
 {
   "listen": ":443",
   "users": {
-    "7aa29bde-f6eb-4226-8ead-920a8576d9cd":
-    "AshgabatKurmanj1998"
+    "cf20ff87-07b1-4f50-8e81-69e7af686315":
+    "JPXSFP4SVMBPZGNsk7pUwrdmzn15VfOC27M6ulSSpy8"
   },
   "certificate": "/root/juicity-folder/ca.crt",
   "private_key": "/root/juicity-folder/ca.key",
