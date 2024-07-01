@@ -1,5 +1,5 @@
 {
-  "listen": ":443",
+  "listen": ":5060",
   "users": {
     "cf20ff87-07b1-4f50-8e81-69e7af686315":
     "JPXSFP4SVMBPZGNsk7pUwrdmzn15VfOC27M6ulSSpy8"
