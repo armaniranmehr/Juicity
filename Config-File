@@ -1,11 +1,11 @@
 {
   "listen": ":5060",
   "users": {
-    "cf20ff87-07b1-4f50-8e81-69e7af686315":
-    "JPXSFP4SVMBPZGNsk7pUwrdmzn15VfOC27M6ulSSpy8"
+    "56da6548-a534-4821-b4b9-175c0fd582bb":
+    "GZPubn5AF8MenL08ksFDMg"
   },
-  "certificate": "/root/juicity-folder/ca.crt",
-  "private_key": "/root/juicity-folder/ca.key",
+  "certificate": "/root/jfolder/ca.cer",
+  "private_key": "/root/jfolder/ca.key",
   "congestion_control": "bbr",
   "disable_outbound_udp443": true,
   "log_level": "info"
