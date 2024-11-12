@@ -1,5 +1,7 @@
 [Unit]
+Description=Juicity Service
 After=network.target nss-lookup.target
+
 [Service]
 Type=simple
 User=root
@@ -7,5 +9,6 @@ ExecStart=/root/jfolder/juicity run -c /root/jfolder/config.json --disable-times
 Restart=on-failure
 LimitNPROC=512
 LimitNOFILE=infinity
+
 [Install]
 WantedBy=multi-user.target
