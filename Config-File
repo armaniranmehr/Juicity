@@ -1,8 +1,8 @@
 {
-  "listen": ":5060",
+  "listen": ":",
   "users": {
-    "56da6548-a534-4821-b4b9-175c0fd582bb":
-    "GZPubn5AF8MenL08ksFDMg"
+    "":
+    ""
   },
   "certificate": "/root/jfolder/ca.cer",
   "private_key": "/root/jfolder/ca.key",
