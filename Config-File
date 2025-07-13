@@ -4,8 +4,8 @@
     "":
     ""
   },
-  "certificate": "/root/jfolder/fullchain.cer",
-  "private_key": "/root/jfolder/private.key",
+  "certificate": "/root/jfolder/ca.cer",
+  "private_key": "/root/jfolder/ca.key",
   "congestion_control": "bbr",
   "disable_outbound_udp443": true,
   "log_level": "info"
