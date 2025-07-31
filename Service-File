@@ -1,12 +1,12 @@
 [Unit]
-Description=juicity Service
+Description=Juicity Service
 Documentation=https://github.com/juicity/juicity
 After=network.target nss-lookup.target
 
 [Service]
 Type=simple
 User=root
-ExecStart=/root/jfolder/juicity run -c /root/jfolder/server.json
+ExecStart=/root/jfolder/juicity run -c /root/jfolder/server.json --disable-timestamp
 Restart=on-failure
 LimitNPROC=512
 LimitNOFILE=infinity
