@@ -7,7 +7,7 @@
   "certificate": "/root/jfolder/fullchain.cer",
   "private_key": "/root/jfolder/private.key",
   "congestion_control": "bbr",
+  "log_level": "info",
   "send_through": "",
-  "disable_outbound_udp443": true,
-  "log_level": "info"
+  "disable_outbound_udp443": true
 }
